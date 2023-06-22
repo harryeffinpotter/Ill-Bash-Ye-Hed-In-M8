@@ -39,5 +39,5 @@ sudo echo -e "<pastebinit>\n         <pastebin>sprunge.us</pastebin>\n         <
 sudo sed -i 's/Prompt=lts/Prompt=latest/g' /etc/update-manager/release-upgrades
 sudo -E -u $USER sudo rm -rf ~/.zshrc
 sudo -E -u $USER sudo rm -rf root/.zshrc
-sudo -E -u $USER wget https://wizardysoftwaresolutions.com/.zshrc -O ~/.zshrc
-sudo wget https://wizardysoftwaresolutions.com/.zshrc -O /root/.zshrc
+sudo -E -u $USER wget https://github.com/harryeffinpotter/Ill-Bash-Ye-Hed-In-M8/blob/main/bash/z.zshrc -O ~/.zshrc
+sudo wget https://github.com/harryeffinpotter/Ill-Bash-Ye-Hed-In-M8/blob/main/bash/z.zshrc -O /root/.zshrc
